@@ -7,7 +7,7 @@ const app = express()
 const PORT = process.env.PORT || 5000 // si no encuentra la variable de entorno PORT lo abre en el puerto 5000
 
 app.get('/', (req, res) => {
-    res.send("<h1>Hola mundo!</h1>")
+    res.send("<h1>Hola mundo! MODIFICADO</h1>")
 })
 
 app.get('/about', (req, res) => {
