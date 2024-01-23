@@ -1,0 +1,24 @@
+{
+  "name": "node_website",
+  "version": "1.0.0",
+  "description": "Primero aplicacion de Express con NodeJs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "devstart": "nodemon src/index.js"
+  },
+  "keywords": [
+    "NodeJs",
+    "Express",
+    "Website"
+  ],
+  "author": "Antonio",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
